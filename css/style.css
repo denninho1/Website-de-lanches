@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.body{
+    width: 100%;
+}
+header{
+    width: 100%;
+    height: 7rem;
+    box-shadow: 2px 2px 10px black;
+    background: #D3CCE3; 
+    background: -webkit-linear-gradient(to right, #E9E4F0, #D3CCE3); 
+    background: linear-gradient(to right, #E9E4F0, #D3CCE3); 
+}
+.nome-logo{
+    font-size: 1.9rem;
+    text-shadow: 1px 1px 3px rgb(34, 34, 34);
+}
+
+.logo-all img{
+    width: 5.5rem;
+    margin-top: 0.6rem;
+}
+.logo-all{
+    margin-left: 1.2rem;
+    display: flex;
+    width: 13rem;
+
+}
+.buscar{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    margin-top: -4.7rem;
+    margin-left: 26rem;
+ 
+}
+.buscar input{
+    border: none;
+    border-radius: 3px;
+    width: 25rem;
+    height: 2.5rem;
+    outline: none;
+    font-size: 1.1rem;
+    padding-left: 0.5rem;
+}
+.buscar input:focus{
+    border-bottom: 2px solid black;
+}
+.buscar button{
+    margin-left: .2rem;
+    border: none;
+    border-radius: 10px;
+    width: 4rem;
+    height: 2.5rem;
+    color: white;
+    cursor: pointer;
+    text-transform: uppercase;
+    background:#264653;;
+
+}
+.buscar button:hover{
+    background-color: #172b33;
+}
+.login-cadastro{
+    display: flex;
+    float: right;
+    margin-top: -2.8rem;
+    margin-right: 3.2rem;
+    width: 200px;
+}
+.imagem-login{
+    margin-right: 0.6rem;
+    margin-top: 0.4rem;
+
+}
+.imagem-login img{
+    width: 35px;
+}
+.login-cadastro a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1.2;
+    color: #264653;
+    transition: color 0.3s;
+}
+.rodape-header{
+    margin-top: 0.8rem;
+}
+ul{
+    display: flex;
+    justify-content: center;
+    padding-right: 5.5rem;
+}
+.infos{
+    text-transform: uppercase;
+    height: 3rem;
+    list-style: none;
+    padding: 0px 15px;
+}
+.infos a{
+    text-decoration: none;
+    color: #264653;
+    font-weight:bolder;
+    font-size: 1.1rem;
+    transition: color 0.3s;
+}
+.infos a:hover, .login-cadastro a:hover{
+    color: #00b4d8;
+}
+.titulo{
+    box-shadow: 1px 1px 5px rgba(0,0,0,.5);
+}
+.titulo h1{
+    text-align: center;
+    font-size: 2.8rem;
+    letter-spacing: 2px;
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.5);
+    background: #0F2027; 
+    background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  
+    background: linear-gradient(to right, #2C5364, #203A43, #0F2027); 
+    color: #D3CCE3; 
+    color: -webkit-linear-gradient(to right, #E9E4F0, #D3CCE3); 
+    color: linear-gradient(to right, #E9E4F0, #D3CCE3);
+}
+.corpo{
+    width: 100%;
+    height: 100%;
+    background: #D3CCE3; 
+    background: -webkit-linear-gradient(to right, #E9E4F0, #D3CCE3); 
+    background: linear-gradient(to right, #E9E4F0, #D3CCE3);
+}
+.imagens{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 3rem;
+}
+.informacoes{
+    position: relative;
+    bottom: 21.7rem;
+    height: 340px;
+    opacity: 0;
+    transition: opacity 0.5s;
+    border-radius: 10px;
+}
+.informacoes p{
+    padding-top: 3.5rem;
+    text-transform: uppercase;
+    color:white;
+    text-shadow: 1px 1px 5px rgba(0,0,0,.5);
+    font-size: 21px;
+    font-weight:bolder;
+    text-align: center;
+    letter-spacing: 2px;
+}
+.botao{
+    display: flex;
+    padding: 2rem;
+    justify-content: center;
+}
+.botao button{
+    width: 10rem;
+    height: 2rem;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-size: 19px;
+    background: #d9a7c7;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #fffcdc, #d9a7c7);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #fffcdc, #d9a7c7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+}
+.imagens img{
+    width: 17rem;
+    box-shadow: 1px 1px 5px black;
+    background: #0F2027; 
+    background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  
+    background: linear-gradient(to right, #2C5364, #203A43, #0F2027); 
+    border: none;
+    border-radius: 10px;
+    opacity:1;
+}
+.informacoes:hover{
+    opacity: 1;
+    background-color: rgba(0,0,0,.5);
+}
